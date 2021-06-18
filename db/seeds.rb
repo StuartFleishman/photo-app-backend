@@ -8,3 +8,12 @@
 
 
 User.create(name: "stu")
+User.create(name: "jo")
+
+
+Category.create(name:"comedy")
+Category.create(name:"drama")
+Category.create(name:"action")
+Category.create(name:"horror")
+
+Picture.create(title: "very funny", image_url: "https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g", user_id: 1, category_id: 1)
